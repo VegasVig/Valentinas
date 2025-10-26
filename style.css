@@ -399,3 +399,115 @@ footer {
 footer .fa-heart {
     color: var(--color-pink);
 }
+/* ======================================= */
+/* MEDIA QUERIES PARA RESPONSIVIDADE (CELULAR) */
+/* ======================================= */
+
+@media (max-width: 768px) {
+    /* Ajustes Gerais de Seção e Fonte */
+    section {
+        padding: 30px 5%; /* Menos padding lateral */
+    }
+
+    h2 {
+        font-size: 2em;
+    }
+
+    /* --- CABEÇALHO / HERO SECTION (pag1.jpg) --- */
+    .hero-section {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+    
+    .logo-container {
+        flex-direction: column; /* Empilha logo e título */
+        margin-bottom: 15px;
+    }
+    
+    .main-logo-image {
+        width: 50px;
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+
+    .main-title {
+        font-size: 3em; /* Reduz o tamanho do título */
+    }
+
+    .subtitle {
+        font-size: 1em;
+        margin-bottom: 20px;
+    }
+
+    .location {
+        flex-direction: column; /* Empilha Endereço e Horário */
+        gap: 10px;
+        text-align: center;
+        margin-top: 30px;
+    }
+
+    /* --- SEÇÃO SOBRE SHEILLA SOARES (pag2.jpg) --- */
+    .qualities-container {
+        flex-direction: column; /* Empilha as caixas de qualidade */
+        gap: 25px;
+    }
+
+    .quality-box {
+        max-width: 100%; /* Ocupa a largura total */
+    }
+    
+    .sheilla-info p {
+        text-align: left; /* Melhora a leitura no celular */
+    }
+    
+    /* --- SEÇÃO NOSSOS SERVIÇOS (pag3.png) --- */
+    .services-grid {
+        /* Muda de 4 colunas para 2 colunas no celular */
+        grid-template-columns: repeat(2, 1fr); 
+        gap: 15px;
+    }
+    
+    .service-box {
+        min-height: 180px; /* Reduz a altura mínima para caber na tela */
+    }
+    
+    /* --- SEÇÃO DE CONTATO (pag4.jpg) --- */
+    .contact-grid {
+        flex-direction: column; /* Empilha as colunas de contato */
+        gap: 30px;
+    }
+
+    .contact-info-box, .chat-box {
+        max-width: 100%; /* Ocupa a largura total */
+    }
+    
+    .chat-box {
+        padding: 20px;
+    }
+    
+    .send-message-button, .instagram-button {
+        width: 100%; /* Ocupa a largura total */
+    }
+    
+    .whatsapp-small-button {
+        margin-left: 0; /* Centraliza melhor o botão */
+    }
+    
+    .instagram-follow {
+        margin-top: 40px;
+    }
+
+    /* RODAPÉ */
+    footer {
+        padding: 15px;
+        font-size: 0.8em;
+    }
+}
+
+/* Ajustes para tablets (opcional, mas recomendado) */
+@media (max-width: 992px) and (min-width: 769px) {
+    .services-grid {
+        /* 3 colunas em tablets para melhor aproveitamento */
+        grid-template-columns: repeat(3, 1fr); 
+    }
+}
