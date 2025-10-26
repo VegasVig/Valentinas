@@ -1,0 +1,401 @@
+
+
+:root {
+    --color-pink: #E87E98;
+    --color-purple: #A064B9;
+    --color-text-dark: #333;
+    --color-background-light: #f8f8f8;
+    --font-script: 'Great Vibes', cursive; /* Fonte da Logo */
+    --font-sans: 'Arial', sans-serif; /* Fonte para textos comuns */
+}
+
+/* Estilos Gerais */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: var(--font-sans);
+    line-height: 1.6;
+    color: var(--color-text-dark);
+    background-color: #fff; /* Fundo branco como nas imagens */
+}
+
+h2 {
+    font-size: 2.5em;
+    font-weight: 300;
+    color: var(--color-text-dark);
+    margin-bottom: 0.5em;
+    padding-top: 1em; /* Espaçamento de cima */
+}
+
+a {
+    text-decoration: none;
+    color: var(--color-pink);
+}
+
+section {
+    padding: 40px 10%;
+    text-align: center;
+    background-color: #fff;
+}
+
+/* --- CABEÇALHO / HERO SECTION (pag1.jpg) --- */
+.hero-section {
+    background-image: url('./assets/cost.png'); /* Substitua por uma imagem de fundo parecida com a da pag1.jpg */
+    background-size: cover;
+    background-position: center;
+    padding: 100px 10% 80px;
+    color: var(--color-text-dark);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    /* Efeito de semi-transparência para texto na frente */
+    background-color: rgba(255, 255, 255, 0.7);
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.main-logo-image {
+    width: 80px;
+    height: 80px;
+    margin-right: 10px;
+    background-image: none;
+}
+
+.main-title {
+    font-family: var(--font-script);
+    font-size: 4em;
+    font-weight: normal;
+    color: var(--color-text-dark); /* Cor do 'Valentina' */
+}
+
+.main-title span {
+    color: var(--color-pink); /* Cor do 'Mimos' */
+}
+
+.subtitle {
+    font-size: 1.2em;
+    margin-bottom: 30px;
+    font-weight: 300;
+}
+
+.heart-emoji {
+    color: var(--color-pink);
+}
+
+.whatsapp-button {
+    background: linear-gradient(to right, var(--color-pink), var(--color-purple));
+    color: white;
+    padding: 15px 30px;
+    border-radius: 30px;
+    font-size: 1.1em;
+    font-weight: bold;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
+.whatsapp-button:hover {
+    opacity: 0.9;
+    transform: translateY(-2px);
+}
+
+.location {
+    margin-top: 40px;
+    font-size: 1em;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    color: #666;
+}
+
+.location i {
+    color: var(--color-pink);
+}
+
+/* --- SEÇÃO SOBRE SHEILLA SOARES (pag2.jpg) --- */
+.about-section {
+    background-color: var(--color-background-light);
+    padding-bottom: 80px;
+}
+
+.qualities-container {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    margin-bottom: 40px;
+}
+
+.quality-box {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.05);
+    flex: 1;
+    max-width: 300px;
+}
+
+.quality-box i {
+    font-size: 2em;
+    color: var(--color-pink);
+    background-color: rgba(232, 126, 152, 0.1);
+    padding: 15px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+}
+
+.quality-box h3 {
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+
+.sheilla-info {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.sheilla-info h2 {
+    color: var(--color-purple);
+    font-size: 2em;
+    font-weight: 600;
+    margin-top: 40px;
+}
+
+.sheilla-info p {
+    margin-bottom: 15px;
+    text-align: justify;
+    text-align-last: center; /* Para a última linha ficar centralizada como na imagem */
+}
+
+/* --- SEÇÃO NOSSOS SERVIÇOS (pag3.png) --- */
+.services-section {
+    padding-top: 60px;
+    background-color: #f59cda;
+}
+
+.services-section h2 {
+    color: var(--color-purple);
+}
+
+.services-subtitle {
+    font-size: 1.1em;
+    margin-bottom: 40px;
+    color: #666;
+}
+
+.services-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    margin-bottom: 40px;
+}
+
+.service-box {
+    background-color: var(--color-background-light);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.05);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+    min-height: 200px; /* Para manter a altura consistente */
+}
+
+.service-box:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+}
+
+.service-box i {
+    font-size: 2em;
+    color: var(--color-pink);
+    background-color: rgba(232, 126, 152, 0.1);
+    padding: 15px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+}
+
+.service-box h3 {
+    color: var(--color-purple);
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+
+.quote-area {
+    margin-top: 40px;
+    padding: 30px;
+    background-color: var(--color-background-light);
+    border-radius: 10px;
+    font-size: 1.1em;
+    font-weight: 300;
+}
+
+.quote-area p:first-child {
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+/* --- SEÇÃO DE CONTATO (pag4.jpg) --- */
+.contact-section {
+    background-color: #fff;
+    padding-top: 60px;
+}
+
+.contact-section h2 {
+    font-size: 3em;
+}
+
+.contact-highlight {
+    color: var(--color-pink);
+}
+
+.contact-grid {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 40px;
+}
+
+.contact-info-box {
+    flex: 1;
+    max-width: 400px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: left;
+}
+
+.contact-item {
+    padding: 15px 0;
+    border-bottom: 1px solid #eee;
+}
+
+.contact-item:last-child {
+    border-bottom: none;
+}
+
+.contact-item i {
+    color: var(--color-purple);
+    margin-right: 10px;
+    font-size: 1.2em;
+}
+
+.contact-item h4 {
+    display: inline;
+    color: var(--color-purple);
+    font-weight: 600;
+}
+
+.contact-item p {
+    margin-left: 30px;
+    font-size: 0.95em;
+    color: #555;
+}
+
+.whatsapp-small-button {
+    display: inline-block;
+    background-color: var(--color-pink);
+    color: white;
+    padding: 8px 15px;
+    border-radius: 20px;
+    margin-top: 10px;
+    font-size: 0.9em;
+    margin-left: 30px;
+}
+
+.chat-box {
+    flex: 1;
+    max-width: 400px;
+    background-color: var(--color-background-light);
+    border-radius: 10px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 0 15px rgba(0,0,0,0.05);
+}
+
+.chat-header {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.chat-header h4 {
+    color: var(--color-purple);
+    font-size: 1.5em;
+    margin-bottom: 5px;
+}
+
+.send-message-button, .instagram-button {
+    width: 80%;
+    padding: 12px;
+    margin: 5px 0;
+    border: none;
+    border-radius: 25px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.send-message-button {
+    background-color: var(--color-pink);
+    color: white;
+}
+
+.send-message-button:hover {
+    background-color: #d16d87;
+}
+
+.instagram-button {
+    background-color: #eee;
+    color: var(--color-purple);
+}
+
+.instagram-button:hover {
+    background-color: #ddd;
+}
+
+.instagram-follow {
+    margin-top: 60px;
+    padding: 30px;
+    background-color: var(--color-background-light);
+    border-radius: 10px;
+}
+
+.instagram-follow h3 {
+    color: var(--color-purple);
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.instagram-handle {
+    display: inline-block;
+    background-color: var(--color-pink);
+    color: white;
+    padding: 8px 15px;
+    border-radius: 20px;
+    margin-top: 10px;
+}
+
+/* RODAPÉ */
+footer {
+    background-color: var(--color-text-dark);
+    color: white;
+    padding: 20px;
+    font-size: 0.9em;
+    text-align: center;
+}
+
+footer .fa-heart {
+    color: var(--color-pink);
+}
