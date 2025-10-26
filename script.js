@@ -17,11 +17,11 @@ document.addEventListener('DOMContentLoaded', () => {
             'medida6.jpg'
         ],
         'ajustes': [
-            'Ajustes1.jpg',
-            'Ajustes2.jpg',
-            'Ajustes3.jpg',
-            'ajustes4.jpg',
-            'ajustes5.jpg'
+            'Ajuste1.jpg',
+            'Ajuste2.jpg',
+            'Ajuste3.jpg',
+            'ajuste4.jpg',
+            'ajuste5.jpg'
         ],
         'bordados': [
             'bordados1.jpg',
@@ -39,12 +39,11 @@ document.addEventListener('DOMContentLoaded', () => {
             'bordados13.jpg'
         ],
         'consertos': [
-           'concertos1.jpg',
+           'consertos1.jpg',
            'consertos2.jpg' 
         ],
         'decorativas': [
-            'decorativas_foto1.jpg',
-            'decorativas_foto2.jpg'
+            
         ],
         'maternidade': [ // O serviço que já estava configurado
             'kit maternidade1.jpg', 

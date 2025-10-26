@@ -69,9 +69,9 @@ section {
 }
 
 .main-logo-image {
-    width: 130px;
+    width: 100px;
     height: 100px;
-    margin-right: 10px;
+   display: flex;
    
 }
 
@@ -128,7 +128,7 @@ section {
 
 /* --- SEÇÃO SOBRE SHEILLA SOARES (pag2.jpg) --- */
 .about-section {
-    background-color: var(--color-background-light);
+    background-color: #E87E98;
     padding-bottom: 80px;
 }
 
