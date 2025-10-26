@@ -11,7 +11,10 @@ document.addEventListener('DOMContentLoaded', () => {
         'roupas': [
             'medida1.jpg',
             'medida2.jpg',
-            'medida3.jpg'
+            'medida3.jpg',
+            'medida4.jpg',
+            'medida5.jpg',
+            'medida6.jpg'
         ],
         'ajustes': [
             'ajustes1.jpg',
@@ -34,7 +37,7 @@ document.addEventListener('DOMContentLoaded', () => {
             'bordados13.jpg'
         ],
         'consertos': [
-            'consertos_foto1.jpg'
+            
         ],
         'decorativas': [
             'decorativas_foto1.jpg',
@@ -57,7 +60,7 @@ document.addEventListener('DOMContentLoaded', () => {
             'kit maternidade14.jpg',
             'kit maternidade15.jpg',
             'kit maternidade16.jpg',
-             'kit maternidade17.jpg', 
+            'kit maternidade17.jpg', 
             'kit maternidade18.jpg',
             'kit maternidade19.jpg',
             'kit maternidade20.jpg'
@@ -168,7 +171,7 @@ document.addEventListener('DOMContentLoaded', () => {
     /* LÓGICA EXISTENTE (WHATSAPP/INSTAGRAM) */
     /* ======================================= */
     
-    const whatsappNumber = '5524999334402';
+    const whatsappNumber = '5524999322402';
     const message = 'Olá, gostaria de um orçamento personalizado. Vi o site da Valentina Mimos!';
 
     // Botões principais do WhatsApp
