@@ -43,6 +43,7 @@ section {
     background-color: #fff;
 }
 
+
 /* --- CABEÇALHO / HERO SECTION (pag1.jpg) --- */
 .hero-section {
     background-image: url('./assets/cost.png'); /* Substitua por uma imagem de fundo parecida com a da pag1.jpg */
@@ -59,6 +60,7 @@ section {
     box-shadow: 0 4px 6px rgba(0,0,0,0.1);
 }
 
+
 .logo-container {
     display: flex;
     align-items: center;
@@ -67,10 +69,10 @@ section {
 }
 
 .main-logo-image {
-    width: 80px;
-    height: 80px;
+    width: 130px;
+    height: 100px;
     margin-right: 10px;
-    background-image: none;
+   
 }
 
 .main-title {
@@ -116,7 +118,8 @@ section {
     display: flex;
     align-items: center;
     gap: 20px;
-    color: #666;
+    color: black;
+    font-weight: 400;
 }
 
 .location i {
@@ -507,6 +510,7 @@ footer .fa-heart {
     background-color: rgba(0, 0, 0, 0.5);
     border-radius: 5px;
 }
+
 
 /* Ajuste de responsividade para o modal no celular */
 @media (max-width: 768px) {

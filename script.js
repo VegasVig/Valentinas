@@ -17,9 +17,11 @@ document.addEventListener('DOMContentLoaded', () => {
             'medida6.jpg'
         ],
         'ajustes': [
-            'ajustes1.jpg',
-            'ajustes2.jpg',
-            'ajustes3.jpg'
+            'Ajustes1.jpg',
+            'Ajustes2.jpg',
+            'Ajustes3.jpg',
+            'ajustes4.jpg',
+            'ajustes5.jpg'
         ],
         'bordados': [
             'bordados1.jpg',
@@ -37,7 +39,8 @@ document.addEventListener('DOMContentLoaded', () => {
             'bordados13.jpg'
         ],
         'consertos': [
-            
+           'concertos1.jpg',
+           'consertos2.jpg' 
         ],
         'decorativas': [
             'decorativas_foto1.jpg',
