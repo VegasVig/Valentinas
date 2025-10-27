@@ -403,11 +403,7 @@ footer {
 footer .fa-heart {
     color: var(--color-pink);
 }
-/* ======================================= */
-/* ESTILOS DO MODAL/CARROSSEL (KIT MATERNIDADE) */
-/* ======================================= */
 
-/* Estilo do Fundo do Modal */
 .modal {
     display: none; /* Escondido por padrão */
     position: fixed; /* Fixado na tela */
@@ -421,7 +417,7 @@ footer .fa-heart {
     padding-top: 60px;
 }
 
-/* Conteúdo do Modal */
+
 .modal-content {
     position: relative;
     margin: auto;
@@ -430,7 +426,7 @@ footer .fa-heart {
     background-color: transparent;
 }
 
-/* Botão Fechar */
+
 .close-button {
     position: absolute;
     top: 15px;
