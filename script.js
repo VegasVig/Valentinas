@@ -29,7 +29,7 @@ document.addEventListener('DOMContentLoaded', () => {
             'bordados3.jpg',
             'bordados4.jpg',
             'bordados5.jpg',
-            'bordados6.jpg',
+            
             'bordados7.jpg',
             'bordados8.jpg',
             'bordados9.jpg',
