@@ -457,7 +457,9 @@ footer .fa-heart {
 .carousel-image {
     width: 100%;
     height: auto;
-    display: block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     border-radius: 8px;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
     max-height: 80vh; /* Limita a altura da imagem na tela */
