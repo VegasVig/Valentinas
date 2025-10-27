@@ -45,7 +45,7 @@ document.addEventListener('DOMContentLoaded', () => {
         'decorativas': [
             
         ],
-        'maternidade': [ // O serviço que já estava configurado
+        'maternidade': [ 
             'kit maternidade1.jpg', 
             'kit maternidade2.jpg',
             'kit maternidade3.jpg',
